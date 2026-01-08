@@ -70,7 +70,7 @@ st.markdown("""
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('processed_urban_women_2324.csv')
+        df = pd.read_csv('data/processed_urban_women_2324.csv')
     except:
         return pd.DataFrame() # Fallback
 
